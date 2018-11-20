@@ -1,4 +1,6 @@
 <?php
+//No argument at this time. Soon..
+
 function getIpRange(  $cidr) {
 
     list($ip, $mask) = explode('/', $cidr);
