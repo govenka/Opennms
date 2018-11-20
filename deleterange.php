@@ -26,7 +26,7 @@ function getEachIpInRange ( $cidr) {
     return $ips;
 }
 
-$cidr = '10.112.0.0/16'; // max. 30 ips
+$cidr = '10.112.0.0/16'; 
 $ips = getEachIpInRange ( $cidr);
 foreach($ips as $ip)
 {
